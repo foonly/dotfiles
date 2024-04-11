@@ -1,4 +1,6 @@
 [arch]
+zsh-autosuggestions
+zsh-syntax-highlighting
 toml-bombadil
 less
 otf-font-awesome
