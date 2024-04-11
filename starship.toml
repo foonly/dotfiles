@@ -1,0 +1,93 @@
+format = """
+ \
+$git_branch\
+$git_status\
+$package\
+$gradle\
+$nodejs\
+$rust\
+$golang\
+$kotlin\
+$java\
+$php\
+$time\
+\n$sudo$directory$character"""
+
+[os]
+format = "[$symbol]($style)"
+style = "bg:#a3aed2 fg:#090c0c"
+disabled = false
+
+[os.symbols]
+Arch = " "
+
+[directory]
+style = ""
+format = "[ $path ]($style)"
+truncate_to_repo = false
+truncation_length = 5
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[sudo]
+format = "[$symbol]($style)"
+disabled = true
+
+[package]
+symbol = "󰏗"
+style = "bg:#394260 fg:#769ff0"
+format = '[ $symbol $version ]($style)'
+
+[gradle]
+style = "bg:#394260 fg:#769ff0"
+format = '[ $symbol$version ]($style)'
+
+[git_branch]
+symbol = " "
+style = "bg:#769ff00"
+format = '[[ $symbol $branch ](fg:#090c0c bg:#769ff0)]($style)'
+
+[git_status]
+style = "bg:#769ff0"
+format = '[[($all_status$ahead_behind )](fg:#090c0c bg:#769ff0)]($style)'
+
+[nodejs]
+symbol = "󰎙"
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[rust]
+symbol = "󱘗"
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[kotlin]
+symbol = "󱈙"
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[java]
+symbol = "󰬷"
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[php]
+symbol = "󰌟 "
+style = "bg:#212736"
+format = '[[ $symbol $version ](fg:#769ff0 bg:#212736)]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[ 󰥔 $time ](fg:#a0a9cb bg:#1d2230)]($style)'

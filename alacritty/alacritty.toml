@@ -1,0 +1,26 @@
+[font]
+size = 15.0
+
+[font.bold]
+family = "Comic Code Ligatures"
+style = "Bold"
+
+[font.bold_italic]
+family = "Comic Code Ligatures"
+style = "Bold Italic"
+
+[font.italic]
+family = "Comic Code Ligatures"
+style = "Italic"
+
+[font.normal]
+family = "Comic Code Ligatures"
+style = "Regular"
+
+[[mouse.bindings]]
+action = "Copy"
+mouse = "Right"
+
+[window]
+dynamic_title = true
+opacity = 0.6
