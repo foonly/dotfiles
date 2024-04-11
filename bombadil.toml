@@ -22,4 +22,5 @@ starship = { source = "starship.toml", target = ".config/starship.toml" }
 waybar = { source = "waybar", target = ".config/waybar" }
 wofi = { source = "wofi", target = ".config/wofi" }
 zsh = { source = "zsh/zshrc", target = ".zshrc" }
+mako = { source = "mako", target = ".config/mako" }
 
