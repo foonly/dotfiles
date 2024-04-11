@@ -2,5 +2,7 @@
 
 
 [arch]
+mumble
+webcord
 signal-desktop
 slack-electron

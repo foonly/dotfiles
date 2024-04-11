@@ -1,4 +1,6 @@
 [arch]
+pipewire-pulse
+pkgfile
 zsh-autosuggestions
 zsh-syntax-highlighting
 toml-bombadil
@@ -7,7 +9,6 @@ otf-font-awesome
 otf-monaspace-nerd
 eza
 starship
-firefox
 yay
 zsh
 micro

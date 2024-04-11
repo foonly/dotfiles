@@ -1,3 +1,11 @@
 [arch]
+woff-fira-code
+composer
+dbus-glib
+docker-compose
+enchant
+nodejs-lts-iron
+npm
+pnpm
 docker
 code
