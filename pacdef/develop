@@ -1,4 +1,6 @@
 [arch]
+python-pip
+python-selenium
 woff-fira-code
 composer
 dbus-glib

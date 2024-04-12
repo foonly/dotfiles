@@ -1,4 +1,6 @@
 [arch]
+kitty
+kitty-terminfo
 pipewire-pulse
 pkgfile
 zsh-autosuggestions

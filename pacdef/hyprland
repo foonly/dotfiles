@@ -1,4 +1,7 @@
 [arch]
+ristretto
+arc-gtk-theme
+arc-icon-theme
 pavucontrol
 wl-clipboard
 dex

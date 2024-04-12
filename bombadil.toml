@@ -17,6 +17,7 @@ vars = [ "vars.toml" ]
 # and `target` shall be relative to $HOME directory or absolute.
 hypr = { source = "hypr", target = ".config/hypr" }
 foot = { source = "foot", target = ".config/foot" }
+kitty = { source = "kitty", target = ".config/kitty" }
 pacdef = { source = "pacdef/pacdef.yaml", target = ".config/pacdef/pacdef.yaml" }
 starship = { source = "starship.toml", target = ".config/starship.toml" }
 waybar = { source = "waybar", target = ".config/waybar" }
