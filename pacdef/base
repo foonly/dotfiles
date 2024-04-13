@@ -1,4 +1,7 @@
 [arch]
+git
+noto-fonts
+openssh
 kitty
 kitty-terminfo
 pipewire-pulse
