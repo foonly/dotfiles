@@ -1,4 +1,5 @@
 [arch]
+lazygit
 python-pip
 python-selenium
 woff-fira-code
