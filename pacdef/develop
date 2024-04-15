@@ -12,3 +12,13 @@ npm
 pnpm
 docker
 code
+
+[rustup]
+toolchain/nightly
+toolchain/stable
+component/stable/cargo
+component/stable/clippy
+component/stable/rust-docs
+component/stable/rust-std
+component/stable/rustc
+component/stable/rustfmt
