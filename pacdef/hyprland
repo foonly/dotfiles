@@ -1,4 +1,5 @@
 [arch]
+cliphist
 nwg-look
 ristretto
 arc-gtk-theme
@@ -22,3 +23,6 @@ hyprlock
 hyprpaper
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
+polkit-kde-agent
+qt5-wayland
+qt6-wayland
