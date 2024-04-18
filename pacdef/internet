@@ -1,4 +1,7 @@
 [arch]
+bind
+google-cloud-cli
+whois
 syncthing
 transmission-gtk
 mullvad-browser-bin
