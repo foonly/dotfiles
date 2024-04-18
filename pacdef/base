@@ -1,5 +1,9 @@
 [arch]
 evtest
+gvfs
+mlocate
+speech-dispatcher
+sshfs
 activitywatch-git
 aw-awatcher
 git
@@ -31,3 +35,7 @@ linux-firmware
 pacdef
 greetd
 greetd-tuigreet
+
+[flatpak]
+com.github.tchx84.Flatseal
+com.mikeasoft.pied

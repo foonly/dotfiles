@@ -2,4 +2,6 @@
 gamemode
 gamescope
 lib32-gamemode
-steam
+
+[flatpak]
+com.valvesoftware.Steam
