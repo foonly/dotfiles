@@ -64,3 +64,4 @@ alias yay="yay --color=auto"
 alias bl="bombadil link"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
