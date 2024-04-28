@@ -1,7 +1,9 @@
 [arch]
+steam-devices-git
 gamemode
 gamescope
 lib32-gamemode
 
 [flatpak]
+net.davidotek.pupgui2
 com.valvesoftware.Steam
