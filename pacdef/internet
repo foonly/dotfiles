@@ -1,4 +1,5 @@
 [arch]
+chromium
 bind
 google-cloud-cli
 whois
