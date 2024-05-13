@@ -1,4 +1,8 @@
 [arch]
+blueman
+bluez
+ntp
+rocm-smi-lib
 fastfetch
 libreoffice-still
 plymouth
