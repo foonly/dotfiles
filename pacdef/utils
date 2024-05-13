@@ -1,4 +1,6 @@
 [arch]
+dosfstools
+xorg-xeyes
 btop
 glmark2
 stress
