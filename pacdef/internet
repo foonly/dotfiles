@@ -1,7 +1,7 @@
 [arch]
+mullvad-vpn-bin
 chromium
 bind
-google-cloud-cli
 whois
 syncthing
 transmission-gtk
