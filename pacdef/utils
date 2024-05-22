@@ -1,4 +1,5 @@
 [arch]
+wireguard-vanity-address
 dosfstools
 xorg-xeyes
 btop
