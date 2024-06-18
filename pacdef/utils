@@ -1,4 +1,7 @@
 [arch]
+tesseract-data-eng
+tesseract-data-fin
+tesseract-data-swe
 wireguard-vanity-address
 dosfstools
 xorg-xeyes

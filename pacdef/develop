@@ -1,4 +1,5 @@
 [arch]
+jre-openjdk-headless
 lazygit
 python-pip
 woff-fira-code

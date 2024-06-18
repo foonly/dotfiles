@@ -1,4 +1,7 @@
 [arch]
+man-db
+man-pages
+smartmontools
 cronie
 wireguard-tools
 solaar
