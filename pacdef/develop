@@ -1,4 +1,5 @@
 [arch]
+google-cloud-cli
 jre-openjdk-headless
 lazygit
 python-pip

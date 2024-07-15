@@ -26,4 +26,4 @@ walker = { source = "walker", target = ".config/walker" }
 zsh = { source = "zsh/zshrc", target = ".zshrc" }
 mako = { source = "mako", target = ".config/mako" }
 fuzzel = { source = "fuzzel", target = ".config/fuzzel" }
-
+wleave = { source = "wleave", target = ".config/wleave" }
