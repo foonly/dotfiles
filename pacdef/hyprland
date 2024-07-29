@@ -1,4 +1,6 @@
 [arch]
+dolphin
+webp-pixbuf-loader
 fuzzel
 swww
 grimblast-git
@@ -10,7 +12,6 @@ kwallet5
 kwalletmanager
 mousepad
 qt6ct
-walker
 xarchiver
 cliphist
 nwg-look
@@ -21,10 +22,6 @@ pavucontrol
 wl-clipboard
 dex
 network-manager-applet
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
 wleave-git
 foot
 hyprland
