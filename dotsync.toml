@@ -1,0 +1,20 @@
+# Path to your dotfiles relative to your $HOME directory
+dotfiles = "dotfiles"
+
+# A dot entry representing a symlink, `source` is relative to `dotfiles_dir`
+# and `target` shall be relative to $HOME directory or absolute.
+dots = [
+	{ source = "hypr", target = ".config/hypr" },
+	{ source = "foot", target = ".config/foot" },
+	{ source = "kitty", target = ".config/kitty" },
+	{ source = "pacdef/pacdef.yaml", target = ".config/pacdef/pacdef.yaml" },
+	{ source = "starship.toml", target = ".config/starship.toml" },
+	{ source = "waybar", target = ".config/waybar" },
+	{ source = "wofi", target = ".config/wofi" },
+	{ source = "walker", target = ".config/walker" },
+	{ source = "zsh/zshrc", target = ".zshrc" },
+	{ source = "mako", target = ".config/mako" },
+	{ source = "fuzzel", target = ".config/fuzzel" },
+	{ source = "wleave", target = ".config/wleave" },
+]
+
