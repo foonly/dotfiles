@@ -1,4 +1,6 @@
 [arch]
+cups
+system-config-printer
 man-db
 man-pages
 smartmontools

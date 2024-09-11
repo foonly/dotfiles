@@ -1,4 +1,6 @@
 [arch]
+ffmpegthumbnailer
+nemo
 dolphin
 webp-pixbuf-loader
 fuzzel

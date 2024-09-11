@@ -1,4 +1,6 @@
 [arch]
+dbeaver
+zed
 google-cloud-cli
 jre-openjdk-headless
 lazygit
