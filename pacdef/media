@@ -1,4 +1,7 @@
 [arch]
+audiotube
+obs-gstreamer
+obs-pipewire-audio-capture-bin
 inkscape
 obs-vaapi
 gimp

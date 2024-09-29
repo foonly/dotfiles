@@ -1,7 +1,6 @@
 [arch]
 ffmpegthumbnailer
 nemo
-dolphin
 webp-pixbuf-loader
 fuzzel
 swww
@@ -29,7 +28,6 @@ foot
 hyprland
 mako
 waybar
-wofi
 hypridle
 hyprlock
 hyprpaper

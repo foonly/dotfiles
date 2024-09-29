@@ -1,4 +1,7 @@
 [arch]
+gparted
+plocate
+via-bin
 downgrade
 hugo
 joplin-appimage

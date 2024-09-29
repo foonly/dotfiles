@@ -1,4 +1,5 @@
 [arch]
+nodejs-lts-iron
 dbeaver
 zed
 google-cloud-cli
