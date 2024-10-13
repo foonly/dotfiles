@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-	margin: 8px;
+	margin: 6px;
     background: linear-gradient(0deg, rgba(30,30,30,0.6) 0%,  rgba(30,30,30,0.8) 100%);
     color: #ffffff;
 	border-radius: 8px;
