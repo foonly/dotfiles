@@ -62,7 +62,6 @@ export PNPM_HOME=$HOME/.pnpm
 export PATH=$HOME/bin:$HOME/.config/composer/vendor/bin:$N_PREFIX/bin:$PNPM_HOME:$PATH
 
 alias ls="eza --icons --group-directories-first --hyperlink --git"
-alias yay="yay --color=auto"
 alias pn="pnpm"
 alias bl="bombadil link"
 
