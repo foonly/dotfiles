@@ -17,7 +17,7 @@ $cmd_duration$jobs$time
 $sudo$directory$character"""
 
 [os]
-format = "[$symbol]($style) "
+format = "$symbol"
 disabled = false
 
 [username]
@@ -40,6 +40,57 @@ format = " [  $time]($style)"
 [cmd_duration]
 format = "[󰔛 $duration]($style)"
 
+[directory]
+read_only = " 󰌾"
+truncate_to_repo = false
+truncation_length = 5
+truncation_symbol = "…/"
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = "[ ](fg:#1793d1)"
+Artix = " "
+CentOS = " "
+Debian = "[ ](fg:#d70751)"
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = "[ ](fg:#51a2da)"
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = "[ ](fg:#ff5722)"
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
 [aws]
 symbol = "  "
 
@@ -57,12 +108,6 @@ symbol = " "
 
 [dart]
 symbol = " "
-
-[directory]
-read_only = " 󰌾"
-truncate_to_repo = false
-truncation_length = 5
-truncation_symbol = "…/"
 
 [docker_context]
 symbol = " "
@@ -123,51 +168,6 @@ symbol = " "
 
 [ocaml]
 symbol = " "
-
-[os.symbols]
-Alpaquita = " "
-Alpine = " "
-AlmaLinux = " "
-Amazon = " "
-Android = " "
-Arch = " "
-Artix = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "󰛓 "
-Gentoo = " "
-HardenedBSD = "󰞌 "
-Illumos = "󰈸 "
-Kali = " "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-OpenBSD = "󰈺 "
-openSUSE = " "
-OracleLinux = "󰌷 "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-RockyLinux = " "
-Redox = "󰀘 "
-Solus = "󰠳 "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Void = " "
-Windows = "󰍲 "
 
 [package]
 symbol = "󰏗 "
