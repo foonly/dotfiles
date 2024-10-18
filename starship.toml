@@ -1,4 +1,5 @@
 format = """
+$os\
 $username\
 $hostname\
 $git_branch\
@@ -14,6 +15,10 @@ $java\
 $fill\
 $cmd_duration$jobs$time
 $sudo$directory$character"""
+
+[os]
+format = "[$symbol]($style) "
+disabled = false
 
 [username]
 show_always = true
