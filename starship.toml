@@ -11,7 +11,8 @@ $rust\
 $golang\
 $kotlin\
 $java\
-$time
+$fill\
+$cmd_duration$jobs$time
 $sudo$directory$character"""
 
 [username]
@@ -26,6 +27,13 @@ format = "[$ssh_symbol$hostname]($style) "
 [git_branch]
 symbol = " "
 format = "[$symbol$branch]($style) "
+
+[time]
+disabled = false
+format = " [  $time]($style)"
+
+[cmd_duration]
+format = "[󰔛 $duration]($style)"
 
 [aws]
 symbol = "  "
