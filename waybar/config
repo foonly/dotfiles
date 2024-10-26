@@ -25,9 +25,9 @@
         "warp-on-scroll": false,
         "format": "{name}: {icon}",
         "format-icons": {
-            "urgent": "",
-            "active": "",
-            "default": ""
+            "urgent": " ",
+            "active": " ",
+            "default": " "
        }
     },
     "keyboard-state": {
@@ -72,7 +72,7 @@
             "on": " "
         },
         "single-icons": {
-            "on": "1 "
+            "on": " 1"
         },
         "state-icons": {
             "paused": "",
@@ -84,8 +84,8 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": " ",
+            "deactivated": " "
         }
     },
     "tray": {
@@ -101,7 +101,7 @@
     	"format": "{free} 󰗮"
     },
     "cpu": {
-        "format": "{usage}% "
+        "format": "{usage}%  "
     },
     "memory": {
         "format": "{}% RAM"
@@ -162,10 +162,10 @@
             "headphone": "󰋋 ",
             "hands-free": "󰋎 ",
             "headset": "󰋎 ",
-            "phone": "",
-            "portable": "",
+            "phone": " ",
+            "portable": " ",
             "car": "",
-            "default": ["", "", ""]
+            "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
     },
@@ -174,7 +174,7 @@
     },
     "wireplumber": {
 		"format": "{volume}%",
-        "format-muted": "",
+        "format-muted": " ",
         "on-click": "pavucontrol",
 		"on-click-right": "helvum"
     },
@@ -183,8 +183,8 @@
         "return-type": "json",
         "max-length": 40,
         "format-icons": {
-            "spotify": "",
-            "default": "🎜"
+            "spotify": " ",
+            "default": "🎜 "
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder

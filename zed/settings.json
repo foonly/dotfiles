@@ -7,51 +7,51 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-	"features": {
-		"inline_completion_provider": "none"
-	},
-	"ui_font_size": 16,
-	"buffer_font_size": 16,
-	"buffer_font_family": "Comic Code Ligatures",
-	"format_on_save": "on",
-	"show_whitespaces": "boundary",
-	"hard_tabs": false,
-	"theme": {
-		"mode": "system",
-		"light": "One Light",
-		"dark": "One Dark"
-	},
-	"assistant": {
-		"enabled": false,
-		"button": false,
-		"dock": "right",
-		"version": "2"
-	},
-	"languages": {
-		"PHP": {
-			"enable_language_server": true,
-			"formatter": "language_server",
-			"hard_tabs": true
-		},
-		"CSS": {
-			"tab_size": 2,
-			"hard_tabs": false,
-			"formatter": "prettier"
-		},
-		"SCSS": {
-			"hard_tabs": false
-		},
-		"Twig": {
-			"enable_language_server": false,
-			"formatter": "prettier",
-			"tab_size": 4,
-			"hard_tabs": true
-		},
-		"JavaScript": {
-			"hard_tabs": false
-		},
-		"TypeScript": {
-			"hard_tabs": false
-		}
-	}
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_family": "Comic Code Ligatures",
+  "format_on_save": "on",
+  "show_whitespaces": "boundary",
+  "hard_tabs": false,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
+  },
+  "assistant": {
+    "enabled": false,
+    "button": false,
+    "dock": "right",
+    "version": "2"
+  },
+  "languages": {
+    "PHP": {
+      "enable_language_server": true,
+      "formatter": "language_server",
+      "hard_tabs": true
+    },
+    "CSS": {
+      "tab_size": 2,
+      "hard_tabs": false,
+      "formatter": "prettier"
+    },
+    "SCSS": {
+      "hard_tabs": false
+    },
+    "Twig": {
+      "enable_language_server": false,
+      "formatter": "prettier",
+      "tab_size": 4,
+      "hard_tabs": true
+    },
+    "JavaScript": {
+      "hard_tabs": false
+    },
+    "TypeScript": {
+      "hard_tabs": false
+    }
+  }
 }
