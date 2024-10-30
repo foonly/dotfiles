@@ -1,7 +1,7 @@
 format = """
-$os\
 $username\
 $hostname\
+$os\
 $git_branch\
 $git_status\
 $git_metrics\
@@ -17,7 +17,7 @@ $cmd_duration$jobs$time
 $sudo$directory$character"""
 
 [os]
-format = "$symbol"
+format = "$symbol "
 disabled = false
 
 [username]
