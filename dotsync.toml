@@ -16,6 +16,7 @@ dots = [
 	{ source = "mako", target = ".config/mako" },
 	{ source = "fuzzel", target = ".config/fuzzel" },
 	{ source = "wleave", target = ".config/wleave" },
+	{ source = "micro", target = ".config/micro" },
 	{ source = "zed", target = ".config/zed" },
 	{ source = "gtk-settings/settings.ini", target = ".config/gtk-3.0/settings.ini" },
 	{ source = "gtk-settings/gtkrc-2.0", target = ".gtkrc-2.0" },

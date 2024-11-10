@@ -42,8 +42,8 @@
       "hard_tabs": false
     },
     "Twig": {
-      "enable_language_server": false,
-      "formatter": "prettier",
+      "enable_language_server": true,
+      "formatter": "language_server",
       "tab_size": 4,
       "hard_tabs": true
     },
