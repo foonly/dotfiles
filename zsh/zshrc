@@ -63,7 +63,7 @@ export PATH=$HOME/bin:$HOME/.config/composer/vendor/bin:$N_PREFIX/bin:$PNPM_HOME
 
 alias ls="eza --icons --group-directories-first --hyperlink --git"
 alias pn="pnpm"
-alias bl="bombadil link"
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
+source /usr/share/nvm/init-nvm.sh

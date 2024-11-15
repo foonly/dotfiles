@@ -15,6 +15,7 @@ dots = [
 	{ source = "zsh/zshrc", target = ".zshrc" },
 	{ source = "mako", target = ".config/mako" },
 	{ source = "fuzzel", target = ".config/fuzzel" },
+	{ source = "fnott", target = ".config/fnott" },
 	{ source = "wleave", target = ".config/wleave" },
 	{ source = "micro", target = ".config/micro" },
 	{ source = "zed", target = ".config/zed" },

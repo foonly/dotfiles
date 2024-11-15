@@ -18,7 +18,7 @@
   "hard_tabs": false,
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
   },
   "assistant": {
