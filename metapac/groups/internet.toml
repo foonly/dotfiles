@@ -1,0 +1,16 @@
+arch = [
+    "bind",
+    "chromium",
+    "claws-mail",
+    "filezilla",
+    "librewolf-bin",
+    "mullvad-browser-bin",
+    "mullvad-vpn-bin",
+    "syncthing",
+    "thunderbird",
+    "transmission-gtk",
+    "vivaldi",
+    "vivaldi-ffmpeg-codecs",
+    "whois",
+    "zen-browser-avx2-bin",
+]

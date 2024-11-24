@@ -1,0 +1,9 @@
+arch = [
+    "element-desktop",
+	"fractal",
+    "mumble",
+    "signal-desktop",
+    "slack-electron",
+    "telegram-desktop",
+    "webcord",
+ ]

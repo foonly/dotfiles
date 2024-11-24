@@ -1,0 +1,11 @@
+arch = [
+    "audiotube",
+    "freetube",
+    "gimp",
+    "inkscape",
+    "mpv",
+    "obs-gstreamer",
+    "obs-pipewire-audio-capture-bin",
+    "obs-studio",
+    "obs-vaapi",
+]

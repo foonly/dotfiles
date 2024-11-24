@@ -7,7 +7,7 @@ dots = [
 	{ source = "hypr", target = ".config/hypr" },
 	{ source = "foot", target = ".config/foot" },
 	{ source = "kitty", target = ".config/kitty" },
-	{ source = "pacdef/pacdef.yaml", target = ".config/pacdef/pacdef.yaml" },
+	{ source = "metapac", target = ".config/metapac" },
 	{ source = "starship.toml", target = ".config/starship.toml" },
 	{ source = "waybar", target = ".config/waybar" },
 	{ source = "wofi", target = ".config/wofi" },
