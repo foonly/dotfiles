@@ -16,6 +16,7 @@ dots = [
 	{ source = "mako", target = ".config/mako" },
 	{ source = "fuzzel", target = ".config/fuzzel" },
 	{ source = "fnott", target = ".config/fnott" },
+	{ source = "swaync", target = ".config/swaync" },
 	{ source = "wleave", target = ".config/wleave" },
 	{ source = "micro", target = ".config/micro" },
 	{ source = "zed", target = ".config/zed" },

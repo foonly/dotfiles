@@ -2,3 +2,4 @@
 hypr/monitors.conf
 micro/backups
 micro/buffers
+*.conf-bak
