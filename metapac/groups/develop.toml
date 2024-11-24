@@ -1,7 +1,7 @@
 arch = [
     "code",
     "composer",
-    "dbeaver",
+	"dbgate-bin",
     "dbus-glib",
     "docker",
     "docker-compose",

@@ -1,5 +1,4 @@
 arch = [
-    "audiotube",
     "freetube",
     "gimp",
     "inkscape",
@@ -8,4 +7,5 @@ arch = [
     "obs-pipewire-audio-capture-bin",
     "obs-studio",
     "obs-vaapi",
+	"tidal-hifi-git",
 ]

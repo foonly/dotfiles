@@ -1,12 +1,14 @@
-
 arch = [
     "amd-ucode",
     "archlinux-wallpaper",
     "base",
+    "base-devel",
     "blueman",
     "bluez",
+    "bluetui-bin",
     "cronie",
     "cups",
+    "doas-sudo-shim-minimal",
     "efibootmgr",
     "evtest",
     "eza",
@@ -20,6 +22,7 @@ arch = [
     "greetd-regreet",
     "greetd-tuigreet",
     "gvfs",
+    "keepassxc",
     "kitty",
     "kitty-terminfo",
     "less",
@@ -46,6 +49,8 @@ arch = [
     "rocm-smi-lib",
     "rsync",
     "rust",
+    "sbctl",
+    "socat",
     "smartmontools",
     "solaar",
     "speech-dispatcher",
@@ -54,14 +59,18 @@ arch = [
     "starship",
     "sxiv",
     "system-config-printer",
+    "ttf-comic-neue",
+    "tmux",
     "wireguard-tools",
     "yay",
     "zoxide",
     "zsh",
     "zsh-autosuggestions",
     "zsh-syntax-highlighting",
+    "zip",
 ]
 flatpak= [
-"com.github.tchx84.Flatseal",
-"com.mikeasoft.pied"
+	"com.github.tchx84.Flatseal",
+	"com.mikeasoft.pied"
 ]
+

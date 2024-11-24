@@ -1,6 +1,8 @@
 arch = [
     "element-desktop",
+	"fluffychat",
 	"fractal",
+	"gossip-bin",
     "mumble",
     "signal-desktop",
     "slack-electron",
