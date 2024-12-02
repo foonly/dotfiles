@@ -11,4 +11,8 @@ arch = [
     "python-pip",
     "woff-fira-code",
     "zed",
+    "nvm",
+    "php-gd",
+    "qt5-tools",
+    "sublime-text-4",
 ]

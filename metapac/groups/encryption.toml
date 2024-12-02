@@ -1,0 +1,7 @@
+arch = [
+    "clevis",
+    "luksmeta",
+    "mkinitcpio-clevis-hook",
+    "tpm2-tools",
+    "sbctl",
+]

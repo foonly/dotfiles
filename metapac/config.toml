@@ -36,4 +36,4 @@ hostname_groups_enabled = true
 # Default: None
 [hostname_groups]
 agamemnon = ["base","comms","cosmic","develop","gaming","hyprland","internet","media","utils"]
-ganymede = ["base","comms","develop","hyprland","internet","laptop","media","utils"]
+ganymede = ["base","comms","cosmic","develop","encryption","hyprland","internet","laptop","media","utils"]
