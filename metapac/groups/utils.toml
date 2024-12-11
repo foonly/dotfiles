@@ -14,7 +14,10 @@ arch = [
     "tesseract-data-eng",
     "tesseract-data-fin",
     "tesseract-data-swe",
+    "qmk",
     "via-bin",
+    "yubikey-personalization-gui",
+    "yubioath-desktop",
     "wireguard-vanity-address",
     "xorg-xeyes",
 ]
