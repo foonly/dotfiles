@@ -1,11 +1,12 @@
 arch = [
     "gamemode",
-    "gamescope",
     "heroic-games-launcher-bin",
-    "lib32-gamemode",
     "linux-zen",
     "lutris",
-    "mangohud",
     "r2modman-bin",
-    "steam",
+    "steam-devices-git",
+]
+flatpak = [
+    "com.valvesoftware.Steam",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
 ]

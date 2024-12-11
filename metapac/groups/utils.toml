@@ -8,6 +8,7 @@ arch = [
     "hip-runtime-amd",
     "hugo",
     "joplin-appimage",
+    "papers",
     "piper",
     "stress",
     "tesseract-data-eng",
