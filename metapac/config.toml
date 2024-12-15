@@ -35,5 +35,5 @@ hostname_groups_enabled = true
 # paths starting without a / are relative to the groups folder
 # Default: None
 [hostname_groups]
-agamemnon = ["base","comms","cosmic","develop","encryption","gaming","hyprland","internet","media","utils"]
-ganymede = ["base","comms","cosmic","develop","encryption","hyprland","internet","laptop","media","utils"]
+agamemnon = ["base","comms","cosmic","develop","encryption","gaming","steam","hyprland","internet","media","utils"]
+ganymede = ["base","comms","cosmic","develop","encryption","steam","hyprland","internet","laptop","media","utils"]

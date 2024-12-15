@@ -4,9 +4,4 @@ arch = [
     "linux-zen",
     "lutris",
     "r2modman-bin",
-    "steam-devices-git",
-]
-flatpak = [
-    "com.valvesoftware.Steam",
-    "org.freedesktop.Platform.VulkanLayer.MangoHud",
 ]

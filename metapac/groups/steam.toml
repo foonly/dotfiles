@@ -1,0 +1,8 @@
+arch = [
+    "gamemode",
+    "steam-devices-git",
+]
+flatpak = [
+    "com.valvesoftware.Steam",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+]
