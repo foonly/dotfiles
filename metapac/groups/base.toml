@@ -21,6 +21,7 @@ arch = [
     "greetd-regreet",
     "greetd-tuigreet",
     "gvfs",
+    "helvum",
     "kitty",
     "kitty-terminfo",
     "less",
@@ -67,6 +68,7 @@ arch = [
 ]
 flatpak= [
 	"com.github.tchx84.Flatseal",
-	"com.mikeasoft.pied"
+	"com.mikeasoft.pied",
+	"com.saivert.pwvucontrol",
+	"org.gtk.Gtk3theme.Adwaita-dark",
 ]
-

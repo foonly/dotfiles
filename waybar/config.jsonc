@@ -37,11 +37,19 @@
 		"on-click": "footclient nmtui",
 	},
 	"pulseaudio": {
-		"format": "{icon}  {volume}%",
-		"format-muted": " ",
+		"format": "{icon}  {desc} {volume}%",
+		"format-muted": "   {desc}",
 		"format-icons": {
 			"default": [" ", " ", " "],
 		},
 		"on-click": "pavucontrol",
+	},
+	"wireplumber": {
+		"format": "{node_name} {icon}  {volume}%",
+		"format-muted": "{node_name}  ",
+		"format-icons": {
+			"default": [" ", " ", " "],
+		},
+		"on-click": "pwvucontrol",
 	},
 }

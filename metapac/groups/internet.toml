@@ -1,6 +1,5 @@
 arch = [
     "bind",
-    "chromium",
     "claws-mail",
     "filezilla",
     "librewolf-bin",
@@ -12,5 +11,4 @@ arch = [
     "vivaldi",
     "vivaldi-ffmpeg-codecs",
     "whois",
-    "zen-browser-avx2-bin",
 ]

@@ -20,6 +20,7 @@ dots = [
 	{ source = "wleave", target = ".config/wleave" },
 	{ source = "micro", target = ".config/micro" },
 	{ source = "zed", target = ".config/zed" },
+	{ source = "wireplumber", target = ".config/wireplumber" },
 	{ source = "gtk-settings/settings.ini", target = ".config/gtk-3.0/settings.ini" },
 	{ source = "gtk-settings/gtkrc-2.0", target = ".gtkrc-2.0" },
 	{ source = "gtk-settings/xsettingsd.conf", target = ".config/xsettingsd/xsettingsd.conf" },
