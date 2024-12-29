@@ -34,4 +34,5 @@ arch = [
     "xarchiver",
     "xdg-desktop-portal-gtk",
     "xdg-desktop-portal-hyprland",
+    "uwsm",
 ]

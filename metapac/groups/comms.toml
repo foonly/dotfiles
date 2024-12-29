@@ -6,4 +6,5 @@ arch = [
     "slack-electron",
     "telegram-desktop",
     "webcord",
+    "whatstux"
  ]

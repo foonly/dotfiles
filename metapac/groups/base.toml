@@ -5,7 +5,7 @@ arch = [
     "base-devel",
     "blueman",
     "bluez",
-    "bluetui-bin",
+    "bluetui",
     "cronie",
     "cups",
     "doas-sudo-shim-minimal",

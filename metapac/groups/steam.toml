@@ -1,5 +1,4 @@
 arch = [
-    "gamemode",
     "steam-devices-git",
 ]
 flatpak = [
