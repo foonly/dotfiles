@@ -33,7 +33,7 @@ arch = [
     "man-db",
     "man-pages",
     "memtest86+-efi",
-    "metapac-bin",
+    "metapac",
     "micro",
     "networkmanager",
     "ntp",
@@ -68,7 +68,6 @@ arch = [
 ]
 flatpak= [
 	"com.github.tchx84.Flatseal",
-	"com.mikeasoft.pied",
 	"com.saivert.pwvucontrol",
 	"org.gtk.Gtk3theme.Adwaita-dark",
 ]

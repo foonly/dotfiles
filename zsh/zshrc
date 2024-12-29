@@ -66,4 +66,3 @@ alias pn="pnpm"
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
-source /usr/share/nvm/init-nvm.sh
