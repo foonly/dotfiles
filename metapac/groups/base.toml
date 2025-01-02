@@ -70,4 +70,5 @@ flatpak= [
 	"com.github.tchx84.Flatseal",
 	"com.saivert.pwvucontrol",
 	"org.gtk.Gtk3theme.Adwaita-dark",
+	"com.mikeasoft.pied",
 ]

@@ -1,6 +1,5 @@
 arch = [
     "element-desktop",
-	"gossip-bin",
     "mumble",
     "signal-desktop",
     "slack-electron",
