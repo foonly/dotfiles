@@ -7,7 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-	"features": {
+	"assistant": {
+  "default_model": {
+   "provider": "zed.dev",
+   "model": "claude-3-5-sonnet-latest"
+  },
+  "version": "2"
+ },
+ "features": {
 		"inline_completion_provider": "none"
 	},
 	"ui_font_size": 16,
@@ -20,12 +27,6 @@
 		"mode": "system",
 		"light": "Gruvbox Light",
 		"dark": "Gruvbox Dark"
-	},
-	"assistant": {
-		"enabled": false,
-		"button": false,
-		"dock": "right",
-		"version": "2"
 	},
 	"languages": {
 		"PHP": {

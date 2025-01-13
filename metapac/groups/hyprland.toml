@@ -17,6 +17,7 @@ arch = [
     "mousepad",
     "nemo",
     "network-manager-applet",
+    "networkmanager-dmenu-git",
     "nwg-look",
     "pamixer",
     "pavucontrol",

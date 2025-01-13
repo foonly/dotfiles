@@ -1,11 +1,19 @@
 {
 	"position": "top",
-	"modules-left": ["hyprland/workspaces", "tray"],
-	"modules-center": ["hyprland/window"],
+	"modules-left": ["hyprland/workspaces", "tray", "idle_inhibitor"],
+	"modules-center": [],
 	"modules-right": ["network", "bluetooth", "pulseaudio", "battery", "clock"],
 	"clock": {
 		"format": "<big></big> {:%a %d %H:%M}",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+	},
+	"idle_inhibitor": {
+		"timeout": 120,
+	    "format": "{icon}",
+	    "format-icons": {
+	        "activated": "",
+	        "deactivated": ""
+	    }
 	},
 	"tray": {
 		"icon-size": 16,
@@ -42,13 +50,14 @@
 		"format-connected": "<big>󰂯</big> {num_connections} Connected",
 		"tooltip-format-connected": "{device_enumerate}",
 		"tooltip-format-enumerate-connected": "{device_alias} {device_address_type}",
-		"on-click": "blueman-manager",
+		"on-click": "blueberry",
+		"on-click-right": "rfkill toggle bluetooth",
 	},
 	"pulseaudio": {
 		"format": "<big>{icon}</big> {desc} {volume}%",
-		"format-muted": "<big></big> {desc}",
+		"format-muted": "<big></big> {desc}",
 		"format-icons": {
-			"default": [" ", " ", " "],
+			"default": ["", "", ""],
 		},
 		"on-click": "pavucontrol",
 	},
@@ -59,5 +68,25 @@
 			"default": [" ", " ", " "],
 		},
 		"on-click": "pwvucontrol",
+	},
+	"custom/notification": {
+		"escape": true,
+		"exec": "swaync-client -swb",
+		"exec-if": "which swaync-client",
+		"format": "{icon}",
+		"format-icons": {
+			"dnd-inhibited-none": "󰂚<sup></sup>",
+			"dnd-inhibited-notification": "󰂚<span foreground='#f38ba8'><sup></sup></span>",
+			"dnd-none": "󰂛",
+			"dnd-notification": "󰂛<span foreground='#f38ba8'><sup></sup></span>",
+			"inhibited-none": "󰂚<sup>󰜺</sup>",
+			"inhibited-notification": "󰵙<span foreground='#f38ba8'><sup></sup></span>",
+			"none": "󰂚<span color='#6c7086'><sup></sup></span>",
+			"notification": "󰂚<span foreground='#f38ba8'><sup></sup></span>",
+		},
+		"on-click": "sleep 0.1 && swaync-client -t -sw",
+		"on-click-right": "sleep 0.1 && swaync-client -d -sw",
+		"return-type": "json",
+		"tooltip": false,
 	},
 }
