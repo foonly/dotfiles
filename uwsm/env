@@ -1,1 +1,3 @@
 export XCURSOR_SIZE=24
+export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
+export GIT_ASKPASS=/usr/lib/seahorse/ssh-askpass
