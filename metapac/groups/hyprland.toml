@@ -3,7 +3,6 @@ arch = [
     "arc-icon-theme",
     "beautyline",
     "cliphist",
-    "dex",
     "ffmpegthumbnailer",
 	"file-roller",
     "fuzzel",

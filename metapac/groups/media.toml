@@ -3,7 +3,7 @@ arch = [
     "inkscape",
     "mpv",
     "obs-gstreamer",
-    "obs-pipewire-audio-capture-bin",
+    "obs-pipewire-audio-capture",
     "obs-studio",
     "obs-vaapi",
 	"tidal-hifi-bin",
