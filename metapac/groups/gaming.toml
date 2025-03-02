@@ -4,4 +4,5 @@ arch = [
     "linux-zen",
     "lutris",
     "r2modman-bin",
+    "protonup-qt",
 ]

@@ -6,6 +6,7 @@ arch = [
     "docker",
     "docker-compose",
     "enchant",
+    "fnm-bin",
     "lazygit",
     "python-pip",
     "woff-fira-code",

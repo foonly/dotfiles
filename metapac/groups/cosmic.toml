@@ -21,4 +21,6 @@ arch = [
     "cosmic-wallpapers",
     "cosmic-workspaces",
     "xdg-desktop-portal-cosmic",
+    "walker-bin",
+    "power-profiles-daemon",
 ]
