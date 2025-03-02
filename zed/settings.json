@@ -15,7 +15,7 @@
 		"version": "2"
 	},
 	"features": {
-		"inline_completion_provider": "none"
+		"edit_prediction_provider": "none"
 	},
 	"ui_font_size": 16,
 	"buffer_font_size": 16,
@@ -32,8 +32,22 @@
 	"languages": {
 		"PHP": {
 			"enable_language_server": true,
-			"formatter": "language_server",
-			"hard_tabs": true
+			"language_servers": ["intelephense", "!phpactor"],
+			"formatter": {
+				"external": {
+					"command": "/home/niklas/bin/phpcbf-fix"
+				}
+			},
+			"hard_tabs": true,
+			"lsp": {
+				"intelephense": {
+					"files": {
+						// Increase the max file size. Large projects easily cause composer autoload
+						// files to increase over 1 MB (default)
+						"maxSize": 3000000
+					}
+				}
+			}
 		},
 		"CSS": {
 			"tab_size": 2,
@@ -50,7 +64,7 @@
 		},
 		"Twig": {
 			"enable_language_server": false,
-			"formatter": "prettier",
+			"formatter": "language_server",
 			"tab_size": 2,
 			"hard_tabs": false
 		},

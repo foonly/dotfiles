@@ -60,6 +60,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 export N_PREFIX=$HOME/.n
 export PNPM_HOME=$HOME/.pnpm
 export PATH=$HOME/.local/bin:$HOME/bin:$HOME/.config/composer/vendor/bin:$N_PREFIX/bin:$PNPM_HOME:$PATH
+export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
 
 alias ls="eza --icons --group-directories-first --hyperlink --git"
 alias pn="pnpm"
