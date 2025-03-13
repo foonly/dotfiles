@@ -21,3 +21,4 @@ arch = [
     "wireguard-vanity-address",
     "xorg-xeyes",
 ]
+flatpak = ["org.dbgate.DbGate"]

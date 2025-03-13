@@ -1,23 +1,38 @@
 {
 	"position": "top",
-	"modules-left": ["hyprland/workspaces", "tray", "idle_inhibitor"],
-	"modules-center": [],
-	"modules-right": ["network", "bluetooth", "pulseaudio", "battery", "clock"],
-	"clock": {
-		"format": "<big></big> {:%a %d %H:%M}",
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+	"modules-left": ["hyprland/workspaces", "tray", "idle_inhibitor", "mpris"],
+	"modules-center": ["custom/clock"],
+	"modules-right": ["network", "bluetooth", "pulseaudio", "battery"],
+	"custom/clock": {
+		"exec": "date +%R",
+		"tooltip": false,
+		"interval": 10,
 	},
 	"idle_inhibitor": {
 		"timeout": 120,
-	    "format": "{icon}",
-	    "format-icons": {
-	        "activated": "",
-	        "deactivated": ""
-	    }
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": "",
+		},
 	},
 	"tray": {
 		"icon-size": 16,
 		"spacing": 8,
+	},
+	"mpris": {
+		"format": "{player_icon} {status_icon}",
+		"tooltip-format": "{player} ({status}): {artist} {album} {title}",
+		"player-icons": {
+			"default": "󰝚",
+			"firefox": "󰈹",
+			"rhythmbox": "󰓃"
+		},
+		"status-icons": {
+			"playing": "",
+			"paused": "",
+			"stopped": "",
+		},
 	},
 	"battery": {
 		"states": {

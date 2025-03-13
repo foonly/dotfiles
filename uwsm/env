@@ -1,5 +1,5 @@
 export XCURSOR_SIZE=24
-export SSH_ASKPASS=/usr/lib/seahorse/ssh-askpass
-export GIT_ASKPASS=/usr/lib/seahorse/ssh-askpass
+export SSH_ASKPASS=/usr/bin/ksshaskpass
+export GIT_ASKPASS=/usr/bin/ksshaskpass
 export EDITOR=vim
 export VISUAL=micro

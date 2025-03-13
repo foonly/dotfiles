@@ -10,6 +10,7 @@ dots = [
 	{ source = "metapac", target = ".config/metapac" },
 	{ source = "starship.toml", target = ".config/starship.toml" },
 	{ source = "waybar", target = ".config/waybar" },
+	{ source = "ironbar", target = ".config/ironbar" },
 	{ source = "wofi", target = ".config/wofi" },
 	{ source = "walker", target = ".config/walker" },
 	{ source = "zsh/zshrc", target = ".zshrc" },
