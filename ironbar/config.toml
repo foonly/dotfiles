@@ -1,3 +1,5 @@
+position = "top"
+
 [[start]]
 type = "workspaces"
 
@@ -5,31 +7,26 @@ type = "workspaces"
 type = "tray"
 
 [[start]]
-type = "music"
-
-[[center]]
-type = "focused"
-show_icon = true
-show_title = true
-truncate = "end"
-
-[[end]]
 type = 'sys_info'
 format = [
-    " {cpu_percent}% {temp_c@CPU}C",
-    " {memory_percent}%",
-    "󰖡 {load_average_1}"
+	" {cpu_percent}% {temp_c@CPU}C",
+	" {memory_percent}%",
+	"󰖡 {load_average_1}",
 ]
 
-[end.interval]
+[start.interval]
 cpu = 1
 disks = 300
 memory = 30
 networks = 3
 temps = 5
 
-[[end]]
-type = "network_manager"
+
+[[center]]
+type = "focused"
+show_icon = true
+show_title = true
+truncate = "end"
 
 [[end]]
 type = "volume"
@@ -41,8 +38,8 @@ type = "upower"
 format = "{percentage}%"
 
 [[end]]
-type = "notifications"
-show_count = true
+type = "clock"
 
 [[end]]
-type = "clock"
+type = "notifications"
+show_count = true

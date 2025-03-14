@@ -1,0 +1,40 @@
+@define-color base #1e1e2e;
+@define-color text #cdd6f4;
+@define-color text-dark #151411;
+@define-color primary #e8ac04;
+@define-color primary-light #ffd14f;
+@define-color primary-dark #7a5b03;
+@define-color alert #bb0303;
+
+.background {
+  background-color: alpha(@base, 0.7);
+  color: @text;
+}
+
+.widget {
+  background-color: transparent;
+  border: 0;
+}
+
+.workspaces .item {
+  border-radius: 25%;
+}
+
+.workspaces .item.visible {
+  background-color: @primary;
+  color: @text-dark;
+}
+.workspaces .item.focused {
+  background-color: @primary-light;
+}
+.workspaces .item.urgent {
+  background-color: @red;
+}
+
+.tray {
+  margin: 0 16px;
+}
+
+.clock {
+  background-color: transparent;
+}
