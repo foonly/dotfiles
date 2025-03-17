@@ -1,10 +1,11 @@
 arch = [
-    "gimp",
-    "inkscape",
-    "mpv",
-    "obs-gstreamer",
-    "obs-pipewire-audio-capture",
-    "obs-studio",
-    "obs-vaapi",
+	"gimp",
+	"inkscape",
+	"mpv",
+	"obs-gstreamer",
+	"obs-pipewire-audio-capture",
+	"obs-studio",
+	"obs-vaapi",
+	"rhythmbox",
 	"tidal-hifi-bin",
 ]

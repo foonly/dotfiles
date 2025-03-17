@@ -1,4 +1,1 @@
-arch = [
-    "linux-lts",
-    "tlp",
-]
+arch = ["linux-lts"]
