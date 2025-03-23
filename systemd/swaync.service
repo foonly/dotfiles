@@ -1,0 +1,10 @@
+[Unit]
+Description=A simple notification daemon with a GTK gui for notifications and the control center
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/swaync
+Restart=on-failure
+
+[Install]
+WantedBy=hyprland.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=A Solution to your Wayland Wallpaper Woes
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/swww-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=hyprland.target

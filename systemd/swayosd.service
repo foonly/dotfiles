@@ -1,0 +1,10 @@
+[Unit]
+Description=A OSD window for common actions like volume and capslock
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/swayosd-server
+Restart=on-failure
+
+[Install]
+WantedBy=hyprland.target
