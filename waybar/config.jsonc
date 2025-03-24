@@ -40,7 +40,11 @@
       "class<code-oss>": "󰨞",
       "class<Slack>": "󰒱",
       "class<dev.zed.Zed>": "",
-      "class<signal>": "󰍡",
+      "class<signal>": "󰭹",
+      "class<steam>": "󰓓",
+      "class<info.mumble.Mumble>": "󰋎",
+      "class<WebCord>": "",
+      "class<nheko>": "󰿌",
     },
   },
   "hyprland/window": {
