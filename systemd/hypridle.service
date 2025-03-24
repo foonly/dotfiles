@@ -1,0 +1,10 @@
+[Unit]
+Description=Hyprland's idle daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/hypridle
+Restart=on-failure
+
+[Install]
+WantedBy=hyprland.target
