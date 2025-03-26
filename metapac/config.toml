@@ -17,6 +17,13 @@
 # Default: "pacman"
 arch_package_manager = "yay"
 
+# Since VSCode and VSCodium both operate on the same package database
+# they are mutually exclusive and so you must pick which one you want
+# metapac to use.
+# Must be one of: ["code", "codium"]
+# Default: "code"
+vscode_variant = "code"
+
 # Whether to install flatpak packages systemwide or for the current user.
 # Default: true
 flatpak_systemwide = true
@@ -24,7 +31,7 @@ flatpak_systemwide = true
 # Backends to disable from all metapac behavior. See the README.md for
 # the list of backend names
 # Default: []
-disabled_backends = ["apt","brew","cargo","dnf","snap"]
+disabled_backends = ["apt", "brew", "cargo", "dnf", "snap"]
 
 # Whether to use the [hostname_groups] config table to decide which
 # group files to use or to use all files in the groups folder.
@@ -35,5 +42,29 @@ hostname_groups_enabled = true
 # paths starting without a / are relative to the groups folder
 # Default: None
 [hostname_groups]
-agamemnon = ["base","comms","develop","encryption","gaming","plasma","steam","hyprland","internet","media","utils"]
-ganymede = ["base","comms","cosmic","develop","encryption","steam","hyprland","internet","laptop","media","utils"]
+agamemnon = [
+    "base",
+    "comms",
+    "develop",
+    "encryption",
+    "gaming",
+    "plasma",
+    "steam",
+    "hyprland",
+    "internet",
+    "media",
+    "utils",
+]
+ganymede = [
+    "base",
+    "comms",
+    "cosmic",
+    "develop",
+    "encryption",
+    "steam",
+    "hyprland",
+    "internet",
+    "laptop",
+    "media",
+    "utils",
+]

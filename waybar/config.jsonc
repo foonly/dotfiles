@@ -45,6 +45,7 @@
       "class<info.mumble.Mumble>": "󰋎",
       "class<WebCord>": "",
       "class<nheko>": "󰿌",
+      "class<org.telegram.desktop>": "",
     },
   },
   "hyprland/window": {
