@@ -22,10 +22,11 @@
   },
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "buffer_font_family": "ComicShannsMono Nerd Font",
-  "ui_font_family": "ComicShannsMono Nerd Font",
+  "buffer_font_family": "ComicShannsMono Nerd Font Propo",
+  "ui_font_family": "ComicShannsMono Nerd Font Propo",
   "format_on_save": "on",
   "show_whitespaces": "boundary",
+  "hard_tabs": false,
   "theme": {
     "mode": "system",
     "light": "Gruvbox Light",
@@ -46,106 +47,7 @@
       }
     },
     "Twig": {
-      "enable_language_server": true,
-      "formatter": "language_server",
-      "hard_tabs": true,
-      "tab_size": 4
-    },
-    "CSS": {
-      "tab_size": 2
-    }
-  },
-  "lsp": {
-    "intelephense": {
-      "settings": {
-        "files": {
-          // Increase the max file size. Large projects easily cause composer autoload
-          // files to increase over 1 MB (default)
-          "maxSize": 3000000
-        },
-        "environment": {
-          "includePaths": ["./.jcore/wordpress", "./vendor"]
-        },
-        "stubs": [
-          "apache",
-          "bcmath",
-          "bz2",
-          "calendar",
-          "com_dotnet",
-          "Core",
-          "ctype",
-          "curl",
-          "date",
-          "dba",
-          "dom",
-          "enchant",
-          "exif",
-          "FFI",
-          "fileinfo",
-          "filter",
-          "fpm",
-          "ftp",
-          "gd",
-          "gettext",
-          "gmp",
-          "hash",
-          "iconv",
-          "imap",
-          "intl",
-          "json",
-          "ldap",
-          "libxml",
-          "mbstring",
-          "meta",
-          "mysqli",
-          "oci8",
-          "odbc",
-          "openssl",
-          "pcntl",
-          "pcre",
-          "PDO",
-          "pdo_ibm",
-          "pdo_mysql",
-          "pdo_pgsql",
-          "pdo_sqlite",
-          "pgsql",
-          "Phar",
-          "posix",
-          "pspell",
-          "random",
-          "readline",
-          "Reflection",
-          "session",
-          "shmop",
-          "SimpleXML",
-          "snmp",
-          "soap",
-          "sockets",
-          "sodium",
-          "SPL",
-          "sqlite3",
-          "standard",
-          "superglobals",
-          "sysvmsg",
-          "sysvsem",
-          "sysvshm",
-          "tidy",
-          "tokenizer",
-          "xml",
-          "xmlreader",
-          "xmlrpc",
-          "xmlwriter",
-          "xsl",
-          "Zend OPcache",
-          "zip",
-          "zlib",
-          "wordpress",
-          "woocommerce",
-          "acf-pro",
-          "wordpress-globals",
-          "wp-cli"
-        ]
-      }
+      "hard_tabs": true
     }
   }
 }
